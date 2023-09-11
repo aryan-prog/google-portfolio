@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import "../css/ProjectBlock.css";
 import Projects from "./Projects";
 import threedots from "../assets/three-dots.png";
 
 function ProjectBlock() {
-  const [info, setInfo] = useState([
+  const info= [
     {
       id: 1,
       name: "Google Search Portfolio Website",
@@ -28,7 +28,7 @@ function ProjectBlock() {
       description: "",
       link: "https://github.com/aryan-prog/Google-Keep-Clone",
     },
-  ]);
+  ];
 
   return (
     <div className="proj">

@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Experiences from './Experiences'
 import "../css/ExperiencesBlock.css";
 import sfslogo from "../assets/sfs.jpg";
 import lnmiit from "../assets/lnmiit.png";
 
 function ExperiencesBlock() {
-  const [info, setInfo] =useState(
+  const info=
     [
       {
         id:1,
@@ -43,7 +43,8 @@ function ExperiencesBlock() {
         description:"Mentored a lab section of engineering undergraduates to encourage learning and hone their Computer Programming skills. This included providing general support and 1-1 assistance for the children." ,
         link:"http://surl.li/jwkys"
       }
-    ]);
+    ];
+
   return (
     <div className='exp'>
       {

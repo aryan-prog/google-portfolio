@@ -1,11 +1,11 @@
-import React,{useState} from 'react'
+import React from 'react'
 import '../css/Accordion.css'
 import { questions } from '../api'
 import MyAccordion from './MyAccordion';
 import threeDots from '../assets/three-dots.png'
 
 function Accordion() {
-    const [data,setData] = useState(questions);
+    const data = questions;
   return (
     <div className='accordion'>
     <section>

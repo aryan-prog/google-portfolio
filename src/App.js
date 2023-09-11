@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar.js';
+import FirstBlock from './components/FirstBlock';
+import ExperiencesBlock from './components/ExperiencesBlock';
+import ProfileBlock from './components/ProfileBlock';
+import ProjectBlock from './components/ProjectBlock';
+import Accordion from './components/Accordion';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='body'>
+    <Navbar/>
+    <FirstBlock/>
+    <br/>
+    <div className='secondBlock'>
+      <ExperiencesBlock/>
+      <ProfileBlock/>
+    </div>
+    <Accordion/>
+    <ProjectBlock/>
+    <div className='finish-bar'>
+      <div className='bar1'>
+        <div className='bar1-text'>
+        <span id='india'>India</span>
+        <span id='address'>Connaught Place, New Delhi, Delhi - </span>
+        <span id='blue-words'>Based on your places - Update Location</span>
+        </div>
+      </div>
+      <div className='bar2'>
+        <div className='bar2-text'>
+          <span>More options in</span>
+          <span id='quick'> Quick Settings</span>
+        </div>
+      </div>
+    </div>
     </div>
   );
 }

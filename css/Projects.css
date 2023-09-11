@@ -1,0 +1,26 @@
+.project-body{
+    padding: 15px 0px;
+    width: 600px;
+    border-bottom: 1px solid rgb(186, 185, 185) ;
+}
+#project-name{
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+#project-link{
+    float: right;
+}
+
+
+#project-description{
+    width: 600px;
+    color: rgb(32, 32, 149);
+    padding-bottom: 15px;
+    margin-bottom: 0px;
+}
+
+#bold{
+    font-weight: bold;
+}

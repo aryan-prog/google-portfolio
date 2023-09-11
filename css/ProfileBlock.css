@@ -1,0 +1,31 @@
+.profile-body{
+    padding: 10px;
+    border-left: 1px solid gray ;
+    height: 550px;
+}
+
+.profileDiv{
+    display: flex;
+    border-bottom: 1px solid rgb(186, 185, 185) ;
+    width: 540px;
+}
+
+.profileDiv>img{
+    width: 70px;
+    height: 70px;
+}
+
+.nameDiv{
+    padding: 10px;
+}
+
+#name{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+#designation{
+    font-size: 15px;
+    color: rgb(142, 143, 144);
+    font-family: Arial, sans-serif;
+}

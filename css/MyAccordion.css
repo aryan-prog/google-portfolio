@@ -1,0 +1,21 @@
+.drop-div{
+    border-bottom: 1px solid rgb(204, 202, 202) ;
+    cursor: pointer;
+}
+.ques{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+.ques>img{
+    width: 15px;
+    height: 15px;
+    float: right;
+    margin-right:5px ;
+}
+
+.answers{
+    color: rgb(106, 105, 105);
+    padding: 5px;
+}

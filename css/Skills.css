@@ -1,0 +1,23 @@
+.skills-body{
+    padding: 15px 5px 15px 5px;
+}
+
+.skills-heading{
+    font-size: large;
+    border-bottom: 1px solid rgb(186, 185, 185) ;
+}
+.skills-image{
+    display: flex;
+    
+}
+
+#skills-image-s{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+#skills-image-s:hover{
+    cursor: pointer;
+    /* text:"alt"; */
+}

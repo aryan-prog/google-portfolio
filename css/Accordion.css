@@ -1,0 +1,16 @@
+.accordion{
+    margin-left: 160px;
+    width: 675px;
+}
+.acc-div{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(204, 202, 202) ;
+}
+.acc-div>span{
+    font-size: 25px;
+    font-family: Arial, sans-serif;
+}
+.acc-div>img{
+    padding-left: 5px;
+    height: 15px;
+}

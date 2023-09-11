@@ -1,0 +1,136 @@
+nav {
+    height: 10vmax;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 3px rgba(134, 133, 133, 0.507);
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 10000;
+  }
+  .searchArea{
+    display: flex;
+  }
+  
+  .google-logo {
+    height: 28px;
+    width: 86px;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .searchBar{
+    white-space: nowrap;
+    overflow: hidden;
+    /* justify-content: center; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid transparent;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+    border-radius: 24px;
+    margin-left: 50px;
+    width: 690px;
+  }
+
+  input[type='text']{
+    margin: 10px;
+    border: none;
+  }
+
+  .afterSpan{
+    display: flex;
+    margin: auto;
+    align-items: flex-end;
+  }
+
+  .line{
+    border-left: 1px solid #dadce0;
+    margin-left: 340px;
+  }
+
+  .searchIcon{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .cameraIcon{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+    justify-content: center;
+  }
+
+  .voiceIcon{
+    height: 24px;
+    width: 24px;
+    padding: 10px;  
+    justify-content: center;
+  }
+
+  .accountLinkButtons{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 50px;
+    justify-content: flex-start;
+    
+  }
+
+  .accountLinkButtons>a{
+    text-decoration: none;
+  }
+
+  #linkButtons{
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #dadce0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    min-width: 38px;
+    cursor: pointer;
+  }
+
+  #linkButtons:hover{
+      background-color: rgba(196, 192, 192, 0.507);
+  }
+
+  .left-div{
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+    position:absolute;
+    width: 370px;
+    z-index: 991;
+    right: 0px;
+    margin-right:14px ;
+    align-items: flex-end;
+    float: right;
+
+  }
+
+  .left-div>img{
+    height: 24px;
+    width: 24px;
+    padding: 10px;
+    
+  }
+
+  #profile{
+    height: 32px;
+    width: 32px;
+    padding: 6px;
+    border-radius: 50%;
+  }

@@ -1,0 +1,55 @@
+.experiences-body{
+    margin-bottom:50px;
+}
+.company{
+    display: flex;
+}
+
+.company>img{
+    border-radius: 50%;
+    width:32px;
+    height: 32px;
+}
+.name-and-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.name-and-link>span{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+}
+.name-and-link #link{
+    color: grey;
+    font-size: 12px;
+}
+
+.position>a{
+    color: rgb(8, 8, 137);
+    display: inline-block;
+    line-height: 1.3;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-family: arial,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.position>a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+#description{
+    font-family: arial,sans-serif;
+    margin-top: 4px;
+    font-size: 14px;
+    padding-right: 15px;
+    font-weight: 10;
+    color: #3a3939;
+}
+

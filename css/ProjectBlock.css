@@ -1,0 +1,23 @@
+.proj{
+    margin-left: 160px;
+    margin-top: 40px ;
+}
+
+#project-heading{
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.project-results{
+    font-size: 15px;
+    color: rgb(142, 143, 144);
+    font-family: Arial, sans-serif;
+    border-bottom: 1px solid rgb(186, 185, 185) ;
+    width: 600px;
+    display: block;
+    padding: 10px 0px;
+}
+.project-results>img{
+    height: 15px;
+    margin-left: 5px;
+}

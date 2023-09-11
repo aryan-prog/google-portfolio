@@ -27,7 +27,7 @@ The **Google Search Portfolio** is an innovative and eye-catching single-page Re
 
 ## Live Demo
 
-Experience the live version of the Google Search Portfolio at [https://aryan-prog.github.io/google-portfolio/](https://aryan-prog.github.io/google-portfolio/).
+Experience the live version of the Google Search Portfolio at [Live Demo](https://aryan-seth-28.netlify.app/).
 
 ## Motivation
 

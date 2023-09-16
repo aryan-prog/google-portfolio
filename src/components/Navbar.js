@@ -25,7 +25,7 @@ function Navbar() {
                 </div>
             </div>
             <div className='accountLinkButtons'>
-                <a href="https://github.com/aryan-prog?tab=repositories" target='_blank' rel='noopener noreferrer'> <button  id='linkButtons'>Github</button> </a>
+                <a href="https://github.com/aryan-prog" target='_blank' rel='noopener noreferrer'> <button  id='linkButtons'>Github</button> </a>
                 <a href="https://www.linkedin.com/in/aryan-seth-9190b1196/" target='_blank' rel='noopener noreferrer'><button id='linkButtons'>Linkedin</button> </a>
                 <a href="https://leetcode.com/mandelakalam12364/" target='_blank' rel='noopener noreferrer'><button id='linkButtons'>Leetcode</button> </a>
                 <a href="tel:+918299821151" target='_blank' rel='noopener noreferrer'><button id='linkButtons'>Contact</button> </a>

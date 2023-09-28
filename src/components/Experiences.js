@@ -3,7 +3,7 @@ import "../css/Experiences.css";
 
 function Experiences(props) {
   return (
-    <div className='experiences-body'>
+    <div className='experiences-body' id='experiences'>
       <div className='company'>
         <img src={props.compLogo} alt='Company Logo'></img>
         <div className='name-and-link'>

@@ -6,7 +6,7 @@ import drop from '../assets/drop.jpg'
 function MyAccordion({question, answer}) {
     const [show,setShow]= useState(false);
   return (
-    <div className='drop-div'>
+    <div className='drop-div' id='faq'>
     <div className='ques' onClick={()=> setShow(!show)}>
         <span>{question}</span>
         <img src={show ? up : drop} alt=''></img>

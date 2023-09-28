@@ -48,7 +48,7 @@ function ProjectBlock() {
   ];
 
   return (
-    <div className="proj">
+    <div className="proj" id='projects'>
       <span id="project-heading">Projects</span>
       <br />
       <div className="project-results">

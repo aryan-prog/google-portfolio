@@ -9,7 +9,7 @@ import Volunteer from './Volunteer';
 function ProfileBlock() {
   return (
     <div className='profile-body'>
-      <div className='profileDiv'>
+      <div className='profileDiv' id='skills'>
         <img src={pic} alt='Profile Pic'></img>
         <div className='nameDiv'>
           <span id='name'>Aryan Seth</span>

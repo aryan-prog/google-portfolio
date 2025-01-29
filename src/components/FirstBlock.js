@@ -8,6 +8,23 @@ import leetcode from '../assets/linkedin.png'
 import'../css/Navbar.css'
 
 function FirstBlock() {
+  const calculateAge = () =>{
+    const targetDate = new Date(2000, 9, 3);  // September 03, 2000 My Birthday
+    console.log(targetDate);  // Outputs the specified date 
+    
+    const today = new Date();
+    
+    // Calculate the number of years that have passed
+    let yearsPassed = today.getFullYear() - targetDate.getFullYear();
+    
+    // Adjust years if the target date hasn't occurred yet this year
+    if (today.getMonth() < targetDate.getMonth() || 
+        (today.getMonth() === targetDate.getMonth() && today.getDate() < targetDate.getDate())) {
+        yearsPassed--;
+    }
+
+    return yearsPassed;
+  }
   return (
     <div className='firstblock'>
       <div className='firstblock-1'>
@@ -45,12 +62,12 @@ function FirstBlock() {
           <div className='age'> 
           <div id='age-span'>Age</div>
           <br/>
-          <div id='years-span'>23 years</div>
+          <div id='years-span'>{calculateAge()}</div>
           </div>
           <div className='skills-div'>
           <div id='age-span'>Skills</div>
           <br/>
-          <div id='skills-span'>C/C++, DSA, HTML, CSS, Javascript, ReactJs, Firebase, JAVA</div>
+          <div id='skills-span'>C/C++, DSA, HTML, CSS, Javascript, ReactJs, Firebase</div>
           </div>
         </div>
         <div className='info-div-2-bottom'>

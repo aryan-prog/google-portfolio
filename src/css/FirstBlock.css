@@ -142,7 +142,7 @@
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
-    padding: 5px 0px 10px 10px;
+    padding: 10px;
 }
 #skills-span{
     font-size: small;

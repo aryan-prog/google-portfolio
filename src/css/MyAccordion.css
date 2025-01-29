@@ -5,8 +5,7 @@
 .ques{
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top:20px ;
-    margin-bottom: 20px;
+    padding: 20px 0px;
 }
 .ques>img{
     width: 15px;

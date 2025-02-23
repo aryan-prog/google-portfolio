@@ -7,10 +7,12 @@ body {
 
 .body{
   height: 400%;
+  /* scale: 0.5; */
 }
 
 .secondBlock{
   display: flex;
+  flex-wrap: wrap;
 }
 
 .bar1{
@@ -51,4 +53,13 @@ body {
 }
 #quick{
   color: #1a0dab;
+}
+
+@media screen and (max-width: 769px) {
+  .bar2-text{
+    margin-left: 60px;
+  }
+  #india{
+    margin-left: 60px;
+  }
 }

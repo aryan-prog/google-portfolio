@@ -1,9 +1,16 @@
 .firstblock{
     margin-left: 160px;
 }
+@media screen and (max-width: 769px) {
+    .firstblock{
+      margin-left: 60px;
+    }
+  }
 .firstblock-1{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
+    min-width: 425px;
 }
 
 .firstblock-1-text>span{
@@ -17,6 +24,7 @@
     display: flex;
     margin-top: 15px;
     padding-top: 30px ;
+    flex-wrap: wrap;
   }
 
   .firstblock-1-buttons>a{
@@ -25,6 +33,8 @@
 
   #accessButtons{
     display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
     margin-left: 10px;
     margin-right: 10px;
     align-items: center;
@@ -55,6 +65,7 @@
 }
 .firstblock-2{
     display: flex;
+    flex-wrap: wrap;
     margin-top:10px ;
 }
 .firstblock-2>div{
@@ -107,6 +118,8 @@
     width: 280px;
     box-sizing: border-box;
     padding: 10px 10px 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .info-div-1>span{
     font-size: large;
@@ -116,8 +129,21 @@
 }
 .info-div-2-top{
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
+
+@media screen and (max-width: 769px) {
+    .info-div-1 {
+      visibility: hidden;
+      height: 0px;
+    }
+    .info-div-2 {
+        visibility: hidden;
+        height: 0px;
+      }
+  }
+  
 
 .age{
     width: 114px;
@@ -126,6 +152,7 @@
     background-color: #E5EDFF;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;
@@ -139,6 +166,7 @@
     background-color: #E5EDFF;
     border-radius: 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     flex-grow: 1;
     justify-content: space-between;

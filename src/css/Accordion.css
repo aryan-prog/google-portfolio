@@ -5,6 +5,7 @@
 .acc-div{
     padding-bottom: 10px;
     border-bottom: 1px solid rgb(204, 202, 202) ;
+    width: 600px;
 }
 .acc-div>span{
     font-size: 25px;
@@ -15,9 +16,15 @@
     height: 15px;
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (min-width:500px) and (max-width: 769px) {
     .accordion{
       margin-left: 60px;
+      min-width: 425px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .accordion{
+      margin-left: 20px;
       min-width: 425px;
     }
   }

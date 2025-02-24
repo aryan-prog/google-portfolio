@@ -2,11 +2,16 @@
     margin-left: 160px;
     margin-top: 40px ;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width:500px) and (max-width: 769px) {
     .proj{
       margin-left: 60px;
     }
   }
+@media screen and (max-width: 500px) {
+.proj{
+    margin-left: 20px;
+}
+}
 
 #project-heading{
     font-size: 30px;

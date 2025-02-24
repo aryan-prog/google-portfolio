@@ -34,7 +34,7 @@ function Navbar() {
                 <a href="tel:+918299821151" target='_blank' rel='noopener noreferrer'><button id='linkButtons'>Contact</button> </a>
                 <a href="mailto:seth.aryan605@gmail.com" target='_blank' rel='noopener noreferrer'><button id='linkButtons'>Mail</button> </a> */}
             </div>
-          </div>
+        </div>
           <div className='left-div'>
           <img src={settings} alt='Settings'></img>
           <img src={launcher} alt='Launcher'></img>

@@ -9,11 +9,16 @@
       border:hidden;
     }
   }
-@media screen and (max-width: 769px) {
+@media screen and (min-width:500px) and (max-width: 769px) {
     .profile-body{
       margin-left: 50px;
     }
   }
+@media screen and (max-width: 500px) {
+.profile-body{
+    margin-left: 20px;
+}
+}
 
 .profileDiv{
     display: flex;

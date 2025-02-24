@@ -1,11 +1,17 @@
 .firstblock{
     margin-left: 160px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width:500px) and (max-width: 769px) {
     .firstblock{
       margin-left: 60px;
     }
   }
+
+@media screen and (max-width: 500px) {
+.firstblock{
+    margin-left: 20px;
+}
+}
 .firstblock-1{
     display: flex;
     flex-wrap: wrap;
@@ -25,6 +31,7 @@
     margin-top: 15px;
     padding-top: 30px ;
     flex-wrap: wrap;
+    gap:20px;
   }
 
   .firstblock-1-buttons>a{
@@ -35,12 +42,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px;
+    margin-right: 10px; */
     align-items: center;
     height: 40px;
     justify-content: center;
-    padding: 15px;
+    padding: 0 15px;
     background-color: #E5EDFF;
     border: 1px solid #dadce0;
     box-sizing: border-box;

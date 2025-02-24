@@ -3,9 +3,16 @@
     margin-left: 160px;
     max-width: 690px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (min-width:500px) and (max-width: 769px) {
     .exp{
       margin-left: 60px;
+      min-width: 425px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .exp{
+      margin-left: 20px;
       min-width: 425px;
     }
   }
